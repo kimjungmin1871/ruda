@@ -21,19 +21,23 @@
             width: 100px;
             height: 100px;
 
+
             background-image: url('logo.png');
             background-position: center;
             background-size: cover;
             margin-bottom: 10px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-decoration: none;
         }
-        .text {
+        .bigbutton1 {
             width: 365px;
-            height: 320px;
+            height: 300px;
             border-radius: 5px;
             background-image: url('program.png');
             background-position: center;
@@ -46,18 +50,23 @@
             justify-content: center;
             align-items: center;
             text-decoration: none;
+            box-shadow: 0px 2px 8px rgba(152, 151, 185, 0.24) ;
+        }
+        .buttons {
+            display: flex;
         }
         .ru {
             font-weight: bold;
         }
+
+
     </style>
 </head>
 <body>
-    <div>
+    <div class="wrap">
         <div class="profile"></div>
-    
-        <div class="text"></div>
-        <p class="ru"> © RUDA</p>
+        <a class="bigbutton1"></a>
+        <p class="ru">© RUDA</p>
     </div>
 </body>
 </html>
